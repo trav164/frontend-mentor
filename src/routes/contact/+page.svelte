@@ -1,6 +1,6 @@
 <!-- https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj -->
 
-<div class="flex w-full max-w-xs flex-col gap-6 rounded-lg bg-white p-8 md:w-full">
+<div class="flex flex-col gap-6 rounded-lg bg-white p-8">
 	<span class="text-2xl font-bold text-gray-800">Contact Us</span>
 
 	<div class="flex flex-col gap-4 md:flex-row">
