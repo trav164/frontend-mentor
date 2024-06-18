@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-*, body, html {
-    @apply bg-gray-200
+@layer base {
+	@font-face {
+		font-family: 'geist';
+		src: url('/fonts/GeistVF.woff');
+	}
+}
+
+html, body {
+    @apply bg-gray-200 font-geist mx-2 my-12;
 }
